@@ -1,0 +1,446 @@
+{
+  "results": [
+    {
+      "theme": "light",
+      "viewport": "desktop",
+      "view": "today",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "viewport": "desktop",
+      "view": "week",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "viewport": "mobile",
+      "view": "today",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "viewport": "mobile",
+      "view": "week",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "viewport": "desktop",
+      "view": "today",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "viewport": "desktop",
+      "view": "week",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "viewport": "mobile",
+      "view": "today",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "viewport": "mobile",
+      "view": "week",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "viewport": "desktop",
+      "view": "habits",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "viewport": "desktop",
+      "view": "tasks",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "viewport": "desktop",
+      "view": "progress",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "viewport": "desktop",
+      "view": "settings",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "viewport": "desktop",
+      "view": "gallery",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "viewport": "desktop",
+      "view": "onboarding",
+      "violations": []
+    }
+  ],
+  "motionSamples": [
+    {
+      "state": "travel",
+      "time": 130,
+      "count": 4,
+      "transforms": [
+        {
+          "joint": "root",
+          "transform": "matrix(0.99837, -0.0570744, 0.0570744, 0.99837, 64.5744, -27.7636)"
+        },
+        {
+          "joint": "scarf-tail",
+          "transform": "matrix(0.999439, -0.0335001, 0.0335001, 0.999439, 0, 0)"
+        },
+        {
+          "joint": "leg-l",
+          "transform": "matrix(0.962831, 0.270106, -0.270106, 0.962831, 0, 0)"
+        },
+        {
+          "joint": "leg-r",
+          "transform": "matrix(0.962831, -0.270106, 0.270106, 0.962831, 0, 0)"
+        }
+      ]
+    },
+    {
+      "state": "travel",
+      "time": 420,
+      "count": 4,
+      "transforms": [
+        {
+          "joint": "root",
+          "transform": "matrix(1.07022, -0.0113529, 0.00967563, 0.912104, 26.6191, -3.64663)"
+        },
+        {
+          "joint": "scarf-tail",
+          "transform": "matrix(0.962988, 0.269545, -0.269545, 0.962988, 0, 0)"
+        },
+        {
+          "joint": "leg-l",
+          "transform": "matrix(0.906358, 0.42251, -0.42251, 0.906358, 0, 0)"
+        },
+        {
+          "joint": "leg-r",
+          "transform": "matrix(0.906358, -0.42251, 0.42251, 0.906358, 0, 0)"
+        }
+      ]
+    },
+    {
+      "state": "travel",
+      "time": 780,
+      "count": 4,
+      "transforms": [
+        {
+          "joint": "root",
+          "transform": "matrix(1.0031, 0, 0, 0.996126, 7.58117, -19.2251)"
+        },
+        {
+          "joint": "scarf-tail",
+          "transform": "matrix(0.951098, 0.308888, -0.308888, 0.951098, 0, 0)"
+        },
+        {
+          "joint": "leg-l",
+          "transform": "matrix(0.967283, -0.253698, 0.253698, 0.967283, 0, 0)"
+        },
+        {
+          "joint": "leg-r",
+          "transform": "matrix(0.967283, 0.253698, -0.253698, 0.967283, 0, 0)"
+        }
+      ]
+    },
+    {
+      "state": "hop",
+      "time": 130,
+      "count": 6,
+      "transforms": [
+        {
+          "joint": "shadow",
+          "transform": "matrix(1.07827, 0, 0, 1, 0, 0)"
+        },
+        {
+          "joint": "root",
+          "transform": "matrix(1.08805, 0, 0, 0.882594, 0, 4.8919)"
+        },
+        {
+          "joint": "scarf-tail",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "joint": "arm-l",
+          "transform": "matrix(0.967375, 0.253348, -0.253348, 0.967375, 0, 0)"
+        },
+        {
+          "joint": "arm-r",
+          "transform": "matrix(0.967375, -0.253348, 0.253348, 0.967375, 0, 0)"
+        },
+        {
+          "joint": "prop",
+          "transform": "matrix(0.997159, -0.0753284, 0.0753284, 0.997159, 0, 0)"
+        }
+      ]
+    },
+    {
+      "state": "hop",
+      "time": 420,
+      "count": 6,
+      "transforms": [
+        {
+          "joint": "shadow",
+          "transform": "matrix(0.632968, 0, 0, 1, 0, 0)"
+        },
+        {
+          "joint": "root",
+          "transform": "matrix(0.986495, 0.00840703, -0.0129911, 1.01679, 0, -34.7032)"
+        },
+        {
+          "joint": "scarf-tail",
+          "transform": "matrix(0.906659, -0.421864, 0.421864, 0.906659, 0, 0)"
+        },
+        {
+          "joint": "arm-l",
+          "transform": "matrix(-0.202842, 0.979212, -0.979212, -0.202842, 0, 0)"
+        },
+        {
+          "joint": "arm-r",
+          "transform": "matrix(-0.202842, -0.979212, 0.979212, -0.202842, 0, 0)"
+        },
+        {
+          "joint": "prop",
+          "transform": "matrix(0.986518, 0.16365, -0.16365, 0.986518, 0, 0)"
+        }
+      ]
+    },
+    {
+      "state": "hop",
+      "time": 780,
+      "count": 6,
+      "transforms": [
+        {
+          "joint": "shadow",
+          "transform": "matrix(1.06229, 0, 0, 1, 0, 0)"
+        },
+        {
+          "joint": "root",
+          "transform": "matrix(1.07475, 0, 0, 0.912792, 0, 0.622913)"
+        },
+        {
+          "joint": "scarf-tail",
+          "transform": "matrix(0.992886, -0.11907, 0.11907, 0.992886, 0, 0)"
+        },
+        {
+          "joint": "arm-l",
+          "transform": "matrix(0.99622, -0.0868655, 0.0868655, 0.99622, 0, 0)"
+        },
+        {
+          "joint": "arm-r",
+          "transform": "matrix(0.99622, 0.0868655, -0.0868655, 0.99622, 0, 0)"
+        },
+        {
+          "joint": "prop",
+          "transform": "matrix(0.996633, -0.0819873, 0.0819873, 0.996633, 0, 0)"
+        }
+      ]
+    },
+    {
+      "state": "celebrate",
+      "time": 130,
+      "count": 8,
+      "transforms": [
+        {
+          "joint": "shadow",
+          "transform": "matrix(1.07059, 0, 0, 1, 0, 0)"
+        },
+        {
+          "joint": "root",
+          "transform": "matrix(1.07942, 0, 0, 0.894108, 0, 4.41218)"
+        },
+        {
+          "joint": "scarf-tail",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "joint": "arm-l",
+          "transform": "matrix(0.973433, 0.228972, -0.228972, 0.973433, 0, 0)"
+        },
+        {
+          "joint": "arm-r",
+          "transform": "matrix(0.973433, -0.228972, 0.228972, 0.973433, 0, 0)"
+        },
+        {
+          "joint": "head",
+          "transform": "matrix(0.997177, -0.0750872, 0.0750872, 0.997177, 0, 0)"
+        },
+        {
+          "joint": "eyes",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "joint": "prop",
+          "transform": "matrix(0.998207, -0.0598552, 0.0598552, 0.998207, 0, 0)"
+        }
+      ]
+    },
+    {
+      "state": "celebrate",
+      "time": 420,
+      "count": 8,
+      "transforms": [
+        {
+          "joint": "shadow",
+          "transform": "matrix(0.693033, 0, 0, 1, 0, 0)"
+        },
+        {
+          "joint": "root",
+          "transform": "matrix(0.983637, -0.0572115, 0.0554196, 1.01544, 0, -29.6658)"
+        },
+        {
+          "joint": "scarf-tail",
+          "transform": "matrix(0.98148, -0.191564, 0.191564, 0.98148, 0, 0)"
+        },
+        {
+          "joint": "arm-l",
+          "transform": "matrix(0.0426384, 0.999091, -0.999091, 0.0426384, 0, 0)"
+        },
+        {
+          "joint": "arm-r",
+          "transform": "matrix(0.0426384, -0.999091, 0.999091, 0.0426384, 0, 0)"
+        },
+        {
+          "joint": "head",
+          "transform": "matrix(0.994617, -0.103624, 0.103624, 0.994617, 0, 0)"
+        },
+        {
+          "joint": "eyes",
+          "transform": "matrix(1, 0, 0, 0.88311, 0, 0)"
+        },
+        {
+          "joint": "prop",
+          "transform": "matrix(0.996198, -0.0871202, 0.0871202, 0.996198, 0, 0)"
+        }
+      ]
+    },
+    {
+      "state": "celebrate",
+      "time": 780,
+      "count": 8,
+      "transforms": [
+        {
+          "joint": "shadow",
+          "transform": "matrix(0.64503, 0, 0, 1, 0, 0)"
+        },
+        {
+          "joint": "root",
+          "transform": "matrix(0.99529, 0.0394032, -0.0409996, 1.00408, 0, -33.497)"
+        },
+        {
+          "joint": "scarf-tail",
+          "transform": "matrix(0.999443, 0.0333787, -0.0333787, 0.999443, 0, 0)"
+        },
+        {
+          "joint": "arm-l",
+          "transform": "matrix(-0.182183, 0.983265, -0.983265, -0.182183, 0, 0)"
+        },
+        {
+          "joint": "arm-r",
+          "transform": "matrix(-0.182183, -0.983265, 0.983265, -0.182183, 0, 0)"
+        },
+        {
+          "joint": "head",
+          "transform": "matrix(0.998506, 0.0546463, -0.0546463, 0.998506, 0, 0)"
+        },
+        {
+          "joint": "eyes",
+          "transform": "matrix(1, 0, 0, 0.350266, 0, 0)"
+        },
+        {
+          "joint": "prop",
+          "transform": "matrix(0.984991, 0.172604, -0.172604, 0.984991, 0, 0)"
+        }
+      ]
+    },
+    {
+      "state": "recover",
+      "time": 130,
+      "count": 3,
+      "transforms": [
+        {
+          "joint": "arm-r",
+          "transform": "matrix(0.705724, -0.708487, 0.708487, 0.705724, 0, 0)"
+        },
+        {
+          "joint": "head",
+          "transform": "matrix(0.995613, 0.0935655, -0.0935655, 0.995613, 0, 0)"
+        },
+        {
+          "joint": "prop",
+          "transform": "matrix(0.990139, 0.140091, -0.140091, 0.990139, 0, 0)"
+        }
+      ]
+    },
+    {
+      "state": "recover",
+      "time": 420,
+      "count": 3,
+      "transforms": [
+        {
+          "joint": "arm-r",
+          "transform": "matrix(0.436519, -0.899695, 0.899695, 0.436519, 0, 0)"
+        },
+        {
+          "joint": "head",
+          "transform": "matrix(0.990636, 0.136526, -0.136526, 0.990636, 0, 0)"
+        },
+        {
+          "joint": "prop",
+          "transform": "matrix(0.978973, 0.203989, -0.203989, 0.978973, 0, 0)"
+        }
+      ]
+    },
+    {
+      "state": "recover",
+      "time": 780,
+      "count": 3,
+      "transforms": [
+        {
+          "joint": "arm-r",
+          "transform": "matrix(0.614743, -0.788728, 0.788728, 0.614743, 0, 0)"
+        },
+        {
+          "joint": "head",
+          "transform": "matrix(0.999652, -0.0263889, 0.0263889, 0.999652, 0, 0)"
+        },
+        {
+          "joint": "prop",
+          "transform": "matrix(0.997739, -0.067207, 0.067207, 0.997739, 0, 0)"
+        }
+      ]
+    }
+  ],
+  "interruptedRoot": "none",
+  "reducedMotion": "none",
+  "paused": true,
+  "performanceSample": {
+    "cpuThrottle": 4,
+    "frames": 120,
+    "medianMs": 16.699999999999818,
+    "p95Ms": 16.800000000000182,
+    "maxMs": 16.800000000000182,
+    "longTasks": []
+  },
+  "errors": []
+}

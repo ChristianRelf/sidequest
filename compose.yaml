@@ -1,0 +1,60 @@
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: sidequest
+      POSTGRES_USER: sidequest
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes: [postgres_data:/var/lib/postgresql/data]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U sidequest -d sidequest"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  migrate:
+    build: .
+    command: [npm, run, db:migrate]
+    environment:
+      DATABASE_URL: postgres://sidequest:${POSTGRES_PASSWORD}@db:5432/sidequest
+    depends_on:
+      db: { condition: service_healthy }
+  web:
+    build: .
+    restart: unless-stopped
+    ports: ["127.0.0.1:3000:3000"]
+    env_file: .env
+    environment:
+      DATABASE_URL: postgres://sidequest:${POSTGRES_PASSWORD}@db:5432/sidequest
+      NODE_ENV: production
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+    healthcheck:
+      test:
+        [
+          CMD,
+          node,
+          -e,
+          "fetch('http://localhost:3000/api/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))",
+        ]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+  worker:
+    build: .
+    command: [npm, run, worker]
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATABASE_URL: postgres://sidequest:${POSTGRES_PASSWORD}@db:5432/sidequest
+      NODE_ENV: production
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+    healthcheck:
+      test: [CMD, node, -e, "const fs=require('fs');const p=require('path').join(require('os').tmpdir(),'sidequest-worker-heartbeat');try{if(Date.now()-Number(fs.readFileSync(p,'utf8'))>180000)process.exit(1)}catch{process.exit(1)}"]
+      interval: 30s
+      timeout: 5s
+      start_period: 60s
+      retries: 3
+volumes:
+  postgres_data:

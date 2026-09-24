@@ -1,0 +1,94 @@
+[
+  {
+    "theme": "light",
+    "viewport": "desktop",
+    "view": "today",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "theme": "light",
+    "viewport": "desktop",
+    "view": "week",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "theme": "light",
+    "viewport": "mobile",
+    "view": "today",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "theme": "light",
+    "viewport": "mobile",
+    "view": "week",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "theme": "dark",
+    "viewport": "desktop",
+    "view": "today",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "theme": "dark",
+    "viewport": "desktop",
+    "view": "week",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "theme": "dark",
+    "viewport": "mobile",
+    "view": "today",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "theme": "dark",
+    "viewport": "mobile",
+    "view": "week",
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "theme": "light",
+    "viewport": "desktop",
+    "view": "habits",
+    "violations": []
+  },
+  {
+    "theme": "light",
+    "viewport": "desktop",
+    "view": "tasks",
+    "violations": []
+  },
+  {
+    "theme": "light",
+    "viewport": "desktop",
+    "view": "progress",
+    "violations": []
+  },
+  {
+    "theme": "light",
+    "viewport": "desktop",
+    "view": "settings",
+    "violations": []
+  },
+  {
+    "theme": "light",
+    "viewport": "desktop",
+    "view": "gallery",
+    "violations": []
+  },
+  {
+    "theme": "light",
+    "viewport": "desktop",
+    "view": "onboarding",
+    "violations": []
+  }
+]
